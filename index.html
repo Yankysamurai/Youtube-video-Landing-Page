@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>You Tube Landing Page Practice</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a625d7eaef.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    
+    <!-- header -->
+
+    <header class="header">
+      <div>
+        <img class="img_logo" src="images/earthlogo.png" />
+      </div>
+      <nav>
+        <ul class="nav_list">
+          <li><a class="nav_item" href="#features">Features</a></li>
+          <li><a class="nav_item" href="#demo">Demo</a></li>
+          <li><a class="nav_item" href="#frontend_stack">Frontend Stack</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- title and form -->
+
+    <section class="cta">
+      <div class="title">
+        <h2>Learn to Code for Free</h2>
+        <p class="title_p">
+          Our mission is to make coding fun and easy to learn
+        </p>
+      </div>
+      <!-- check on form about adding action and another element -->
+      <form class="cta_form">
+        <input
+          class="email"
+          type="emai"
+          id="email"
+          name="email"
+          placeholder="Enter your email here"
+          required
+        />
+        <button type="submit" class="btn">Let's Get Started</button>
+      </form>
+    </section>
+
+    <!-- container -->
+
+    <div class="container">
+      
+      <!-- features -->
+
+      <section>
+        <h2 id="features">Features</h2>
+        <div class="group">
+          <div class="features_icon"><i class="fas fa-solid fa-video fa-3x"></i></div>
+          <div class="desc">
+            <h2>Free Videos</h2>
+            <p>Watch 100's of video tutorials on coding.</p>
+          </div>
+        </div>
+        <div class="group">
+          <div class="features_icon"><i class="fas fa-house-user fa-3x"></i></div>
+          <div class="desc">
+            <h2>Stay Home</h2>
+            <p>Learn from the comfort of your home at anytime.</p>
+          </div>
+        </div>
+        <div class="group">
+          <div class="features_icon"><i class="fas fa-question-circle fa-3x"></i></div>
+          <div class="desc">
+            <h2>Ask Us</h2>
+            <p>
+              What would you like to learn? Ask and we may be able to create a
+              video on the topic.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- demo -->
+
+      <section>
+        <h2 id="demo">Demo</h2>
+        <div class="iframe">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/0QZOXRQ81XM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- frontend stack -->
+
+      <section>
+        <h2 id="frontend_stack">Frontend Stack</h2>
+        <div class="stack_whole">
+          <div class="stack_group">
+            <p class="stack">HTML</p>
+            <div><i class="fab fa-html5 fa-2x"></i></div>
+            <ul class="stack_ul">
+              <li>Headings</li>
+              <!-- shortcut li*4 then press enter -->
+              <li>Paragraphs</li>
+              <li>Links</li>
+              <li>Footers</li>
+              <li>Much More</li>
+            </ul>
+          </div>
+          <div class="stack_group">
+            <p class="stack">CSS</p>
+            <div><i class="fab fa-css3-alt fa-2x"></i></div>
+            <ul class="stack_ul">
+              <li>Layout</li>
+              
+              <li>Colors</li>
+              <li>Fonts</li>
+              <li>Borders</li>
+              <li>Much More</li>
+            </ul>
+          </div>
+          <div class="stack_group">
+            <p class="stack">JS</p>
+            <div><i class="fab fa-js fa-2x"></i></div>
+            <ul class="stack_ul"> 
+              <li>Interactive Pages</li>
+              
+              <li>Display Animations </li>
+              <li>Drop Down Menus</li>
+              <li>Browser Games</li>
+              <li>Much More</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- end cta -->
+
+      <section class="cta">
+        <div class="title">
+          <h2>Enter email below to  learn how to code for free</h2>
+          
+        </div>
+        <!-- check on form about adding action and another element -->
+        <form class="cta_form">
+          <input
+            class="email"
+            type="emai"
+            id="email"
+            name="email"
+            placeholder="Email here"
+            required
+          />
+          <button type="submit" class="btn">Let's Go</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <ul class="footer_ul">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
